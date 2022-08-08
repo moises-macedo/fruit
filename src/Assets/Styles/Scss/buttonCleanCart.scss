@@ -1,0 +1,36 @@
+@import"./global.scss";
+
+.container--buttonCleanCart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttonCleanCart-btnDelete{
+    background: none;
+    cursor: pointer;
+    border: 2px solid $color--blue-1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: $color--blue-1;
+    margin-right: 30px;
+    p{
+        font-size: 18px;
+        color: #fff
+    }
+}
+.buttonCleanCart-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    span{
+        font-weight: 200;
+        margin-right: 5px;
+    }
+}

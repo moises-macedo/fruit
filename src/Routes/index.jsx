@@ -1,12 +1,18 @@
-import { Route, Routes as RoutePages } from "react-router-dom"
-import Body from "../Components/Body"
-import Cards from "../Components/Cards"
-import Header from "../Components/Header"
+import { Route, Routes as RoutePages } from "react-router-dom";
+import ButtonCleanCart from "../Components/ButtonCleanCart";
+import Cart from "../Components/Cart";
+import Home from "../Pages/Home";
 
 const Routes = () => {
     return (
         <RoutePages>
-            <Route exact path="/" element={<Body />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/carrinho" element={
+                <>
+                    <ButtonCleanCart />
+                    <Cart />
+                </>
+            } />
         </RoutePages>
     )
 }

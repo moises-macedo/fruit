@@ -16,6 +16,7 @@
     border: 1px solid rgba(22, 21, 28, 0.3);
     border-bottom-left-radius: 15px;
     border-left: 2px solid transparent;
+    min-height: 130px;
 }
 
 .container--modalCard-info {
@@ -37,7 +38,7 @@
     cursor: pointer;
 
     p {
-        color: #3120E0
+        color: $color--blue-1
     }
 
     

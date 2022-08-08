@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif; }
+
+.container--buttonCleanCart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.buttonCleanCart-btnDelete {
+  background: none;
+  cursor: pointer;
+  border: 2px solid #3120E0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: #3120E0;
+  margin-right: 30px; }
+  .buttonCleanCart-btnDelete p {
+    font-size: 18px;
+    color: #fff; }
+
+.buttonCleanCart-size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; }
+  .buttonCleanCart-size span {
+    font-weight: 200;
+    margin-right: 5px; }
+
+/*# sourceMappingURL=buttonCleanCart.css.map */
