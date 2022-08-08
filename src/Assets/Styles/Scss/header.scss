@@ -1,0 +1,50 @@
+@import"./global.scss";
+
+.container--header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 50px;
+}
+
+.btn-cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12.5%;
+    background: none;
+    cursor: pointer;
+
+    p {
+        transform: translateY(2px);
+        font-size: 18px;
+        font-weight: normal;
+
+        &:last-child {
+            transform: translateY(0px);
+        }
+    }
+}
+
+.counter-btn {
+
+
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: -2;
+    background: $color--yellow-1;
+}

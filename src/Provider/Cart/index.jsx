@@ -12,10 +12,9 @@ export const CartProvider = ({ children }) => {
         localStorage.setItem("@cartProducts", JSON.stringify(newProduct))
 
     }
-
-    console.log(cartProducts)
+    
     return (
-        <CartContext.Provider value={{addCartProducts}}>
+        <CartContext.Provider value={{addCartProducts,cartProducts}}>
             {children}
         </CartContext.Provider>
     )
