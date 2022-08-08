@@ -15,21 +15,24 @@
   justify-content: center;
   flex-wrap: wrap; }
 
-.cards--list-unitary {
+.cards-list {
+  position: relative;
   width: 100%;
   max-width: 250px;
   margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   transition: 0.2s ease-in-out; }
-  .cards--list-unitary:hover {
+  .cards-list:hover {
     border-radius: 5px;
     box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
     -webkit-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
     -moz-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
     transform: scale(1.1); }
+
+.cards--list-unitary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .list-unitary {
   width: 100%;
