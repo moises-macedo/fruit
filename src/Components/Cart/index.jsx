@@ -6,11 +6,6 @@ import "../../Assets/Styles/Css/cart.css";
 const Cart = () => {
     const { cartProducts, removecart } = useContext(CartContext);
 
-    //     const newCartProducts = JSON.parse(JSON.stringify(cartProducts,{ quantiti: 1}))
-
-
-    //    console.log( newCartProducts)
-
     return (
         <div className="container--cart">
             {cartProducts.length > 0 ? (
