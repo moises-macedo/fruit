@@ -15,6 +15,7 @@ export const ProdutcsProvider = ({ children }) => {
     useEffect(() => {
         loadProductsAll()
     }, [])
+    
     return (
         <ProductsContext.Provider value={{productsAll}}>
             {children}
