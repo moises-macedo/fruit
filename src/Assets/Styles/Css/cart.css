@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif; }
+
+.container--cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .container--cart h2 {
+    font-size: clamp(1rem, 8vw, 2.5rem);
+    font-weight: 200; }
+
+.list--cart {
+  width: 100%;
+  max-width: 600px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px; }
+  .list--cart:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(0, 0, 0, 0.12); }
+  .list--cart:nth-child(even) {
+    background: rgba(255, 94, 87, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 94, 87, 0.12); }
+
+.list--cart span {
+  font-weight: bold; }
+.list--cart p {
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 200; }
+
+.cart-btn-delete {
+  background: none; }
+  .cart-btn-delete p {
+    cursor: pointer;
+    color: #f01111; }
+    .cart-btn-delete p svg {
+      transform: translateY(1.5px); }
+
+/*# sourceMappingURL=cart.css.map */

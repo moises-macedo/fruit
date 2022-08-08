@@ -12,9 +12,16 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 100%;
-  min-height: 50px; }
+  min-height: 80px; }
+
+.header-btn {
+  background: none;
+  cursor: pointer; }
+  .header-btn img {
+    width: 50px;
+    transform: rotateZ(-60deg); }
 
 .btn-cart {
   position: relative;

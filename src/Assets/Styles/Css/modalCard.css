@@ -23,7 +23,8 @@
   -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(22, 21, 28, 0.3);
   border-bottom-left-radius: 15px;
-  border-left: 2px solid transparent; }
+  border-left: 2px solid transparent;
+  min-height: 130px; }
 
 .container--modalCard-info {
   position: absolute;

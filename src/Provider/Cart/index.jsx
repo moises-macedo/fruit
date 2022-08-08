@@ -7,14 +7,30 @@ export const CartProvider = ({ children }) => {
     const [cartProducts, setCartProducts] = useState(cartStorage)
 
     const addCartProducts = (products) => {
+
         const newProduct = [...cartProducts, products];
         setCartProducts(newProduct);
-        localStorage.setItem("@cartProducts", JSON.stringify(newProduct))
+        localStorage.setItem("@cartProducts", JSON.stringify(newProduct));
 
     }
-    
+
+
+
+    const removecart = (indexCart) => {
+        const newCart = cartProducts.filter((el, index) => {
+            return index !== indexCart
+        });
+        localStorage.setItem("@cartProducts", JSON.stringify(newCart));
+        setCartProducts(newCart)
+    }
+
+    const cleanCart = () => {
+        setCartProducts([]);
+        localStorage.removeItem("@cartProducts");
+    }
+
     return (
-        <CartContext.Provider value={{addCartProducts,cartProducts}}>
+        <CartContext.Provider value={{ addCartProducts, cartProducts, removecart, cleanCart }}>
             {children}
         </CartContext.Provider>
     )

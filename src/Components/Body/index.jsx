@@ -5,7 +5,7 @@ import "../../Assets/Styles/Css/body.css"
 
 const Body = () => {
     const { productsAll } = useContext(ProductsContext);
-    console.log(productsAll)
+    
     
     return (
         <main className="container--body">
