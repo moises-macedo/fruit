@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif; }
+
+.container--cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.cards--list-unitary {
+  width: 100%;
+  max-width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 10px 10px 14px -7px rgba(0, 0, 0, 0.34);
+  transition: 0.2s ease-in-out; }
+  .cards--list-unitary:hover {
+    transform: scale(1.1); }
+
+.list-unitary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px; }
+  .list-unitary span {
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600; }
+  .list-unitary p {
+    font-weight: 100; }
+
+.list-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FEC260;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 2px solid transparent;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px; }
+  .list-btn button {
+    background: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 18px; }
+
+/*# sourceMappingURL=cards.css.map */

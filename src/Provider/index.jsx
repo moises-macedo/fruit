@@ -1,9 +1,12 @@
+import CartProvider from "./Cart"
 import ProdutcsProvider from "./Products"
 
 const Provider = ({ children }) => {
     return (
         <ProdutcsProvider>
-            {children}
+            <CartProvider>
+                {children}
+            </CartProvider>
         </ProdutcsProvider>
     )
 }
