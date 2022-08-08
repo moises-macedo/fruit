@@ -30,8 +30,9 @@ const Cards = ({ card }) => {
                             <button onClick={() => addCartProducts(el)}>
                                 <p>Adicionar</p>
                             </button>
-                        </li>
+                        </li>                       
                     </ul>
+
                 )
             })}
 
